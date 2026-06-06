@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Enviar notificación a ntfy
-        run: curl -H "Push exitoso en main" -d "Daniel Augusto" https://ntfy.sh/devops-itla
+        run: curl -H "Title:Push exitoso en main" -d "Daniel Augusto" https://ntfy.sh/devops-itla
